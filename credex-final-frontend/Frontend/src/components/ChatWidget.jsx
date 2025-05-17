@@ -22,9 +22,10 @@ const ChatWidget = ({ isDark }) => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://credex-final-backend-1.onrender.com/api/chat"
-        ,
-        // "http://localhost:5000/api/chat", 
+      const response = await fetch(
+        "https://credex-final-backend-1.onrender.com/api/chat"
+         ,
+        //  "http://localhost:5000/api/chat", 
         {
         method: "POST",
         headers: {
